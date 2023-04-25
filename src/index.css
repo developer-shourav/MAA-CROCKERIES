@@ -11,3 +11,8 @@
  html{
     scroll-behavior: smooth;
  }
+
+ footer  li:hover{
+   color: red;
+   cursor: pointer;
+ }
