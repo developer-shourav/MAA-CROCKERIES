@@ -6,14 +6,7 @@ const Footer = () => {
 
             <div className="container mx-auto">
                <div className='grid grid-cols-2 md:grid-cols-4'>
-                <div>
-                    <img className='w-20' src={Logo} alt="" />
-                    <h3 className='text-red-500 font-bold text-2xl'>MAA CROCKERIES</h3>
-                    <li>PRAN-RFL Center,</li>
-                    <li>105 Pragati Sarani, Middle Badda, Dhaka-</li>
-                    <li>1212</li>
-                    <li>Bangladesh</li>
-                </div>
+               
 
                 <div>
                     <h4>About Us</h4>
@@ -36,10 +29,28 @@ const Footer = () => {
                     <li>FAQ</li>
                 </div>
 
+                <div>
+                    <img className='w-20' src={Logo} alt="" />
+                    <h3 style={{color:"red"}} className=' font-bold text-2xl'>MAA CROCKERIES</h3>
+                    <li>PRAN-RFL Center,</li>
+                    <li>105 Pragati Sarani, Middle Badda, Dhaka-</li>
+                    <li>1212</li>
+                    <li>Bangladesh</li>
+                </div>
+
                </div>
             </div>
             
-            <hr style={{border:'1px solid #383838'}}   />
+            <hr style={{borderTop:'1px solid #383838'}}   />
+
+            <div className="container mx-auto flex justify-between items-center">
+                <div></div>
+
+                <div>
+                    <span>© 2023 MAA CROCKERIES | All rights reserved</span>
+                </div>
+
+            </div>
         </footer>
     );
 };

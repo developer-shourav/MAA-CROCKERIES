@@ -8,7 +8,7 @@ const NavigationBar = () => {
           <span className="flex items-center ">
             {" "}
             <img className="w-8 md:w-16 me-2 md:me-3" src={Logo} alt="" />{" "}
-            <span className="text-red-500 font-bold text-lg md:text-2xl">
+            <span style={{color:"red"}} className=" font-bold text-lg md:text-2xl">
               MAA CROCKERIES
             </span>{" "}
           </span>
