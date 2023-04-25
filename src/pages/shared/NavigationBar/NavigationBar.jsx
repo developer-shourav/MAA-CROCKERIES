@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../../assets/web-logo.png";
 import { AiOutlineMenu } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 const NavigationBar = () => {
   return (
       <div className="navbar container shadow-md rounded-md mx-auto bg-base-100">
@@ -17,16 +18,16 @@ const NavigationBar = () => {
         <div className="hidden md:flex flex-none">
           <ul className="menu font-bold menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <NavLink   to='/'>Home</NavLink>
             </li>
             <li>
-              <a>Products</a>
+              <NavLink to='/products'>Products</NavLink>
             </li>
             <li>
-              <a>Login</a>
+              <NavLink to='/login'>Login</NavLink>
             </li>
             <li>
-              <a>Register</a>
+              <NavLink to ='/register'>Register</NavLink>
             </li>
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
@@ -60,13 +61,13 @@ const NavigationBar = () => {
           
         </div>
 
-        <div className=" sm:visible md:hidden dropdown dropdown-end">
+        <div className=" sm:visible md:hidden dropdown dropdown-end ">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
               <AiOutlineMenu className="text-red-600 text-xl"> </AiOutlineMenu>
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+                className="menu menu-compact dropdown-content mt-3 p-2  shadow-xl bg-red-200 rounded-md w-52"
               >
                 <li>
                   <a className="justify-between">
@@ -75,11 +76,17 @@ const NavigationBar = () => {
                   </a>
                 </li>
                 <li>
-                  <a>Settings</a>
-                </li>
-                <li>
-                  <a>Logout</a>
-                </li>
+              <NavLink   to='/'>Home</NavLink>
+            </li>
+            <li>
+              <NavLink to='/products'>Products</NavLink>
+            </li>
+            <li>
+              <NavLink to='/login'>Login</NavLink>
+            </li>
+            <li>
+              <NavLink to ='/register'>Register</NavLink>
+            </li>
               </ul>
             </div>
 

@@ -16,3 +16,7 @@
    color: red;
    cursor: pointer;
  }
+
+.active {
+   @apply bg-white text-red-500 
+}
