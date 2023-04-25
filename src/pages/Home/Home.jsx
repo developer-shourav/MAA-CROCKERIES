@@ -3,7 +3,7 @@ import BannerSlider from '../components/BannerSlider';
 
 const Home = () => {
     return (
-        <div>
+        <div className='container mx-auto'>
             <h2>This is Home </h2>
             <BannerSlider> </BannerSlider>
         </div>
