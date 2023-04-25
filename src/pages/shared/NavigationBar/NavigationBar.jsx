@@ -24,10 +24,16 @@ const NavigationBar = () => {
               <NavLink to='/products'>Products</NavLink>
             </li>
             <li>
+              <NavLink to='/contact'>Contact</NavLink>
+            </li>
+            <li>
               <NavLink to='/login'>Login</NavLink>
             </li>
             <li>
               <NavLink to ='/register'>Register</NavLink>
+            </li>
+            <li>
+              <NavLink to ='/about'>About</NavLink>
             </li>
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
@@ -82,10 +88,16 @@ const NavigationBar = () => {
               <NavLink to='/products'>Products</NavLink>
             </li>
             <li>
+              <NavLink to='/contact'>Contact</NavLink>
+            </li>
+            <li>
               <NavLink to='/login'>Login</NavLink>
             </li>
             <li>
               <NavLink to ='/register'>Register</NavLink>
+            </li>
+            <li>
+              <NavLink to ='/about'>About</NavLink>
             </li>
               </ul>
             </div>
