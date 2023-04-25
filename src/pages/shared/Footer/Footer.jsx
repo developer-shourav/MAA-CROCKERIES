@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from "../../../assets/web-logo.png";
 const Footer = () => {
     return (
-        <footer   style={{backgroundColor:'#1b1b1b', color:'#8d8d8d'}} className='py-10  list-none'>
+        <footer   style={{backgroundColor:'#1b1b1b', color:'#8d8d8d'}} className='py-10 mt-80  list-none'>
 
             <div className="container mx-auto my-5">
                <div className='grid text-center md:text-left grid-cols-1 md:grid-cols-4 gap-4'>
