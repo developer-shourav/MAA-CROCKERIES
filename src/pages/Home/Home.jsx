@@ -4,6 +4,9 @@ import Banner1 from '../../assets/banner/banner1.jpg';
 import Banner2 from '../../assets/banner/banner2.jpg';
 
 const Home = () => {
+    
+
+
     return (
         <div className='container mx-auto'>
           {/* ------Top Banner------ */}
@@ -40,13 +43,15 @@ const Home = () => {
            <div className=''>
               <h2 className='text-center font-bold text-4xl pt-5'>What we mainly offer?</h2>
 
-              <div className='grid grid-cols-4'>
-                <div>
-                    <span></span>
-                    <h4></h4>
+              <div className='grid grid-cols-2 md:grid-cols-4 mx-10 mt-16 mb-10 gap-5'>
+                
+                <div className='border-2 hover:bg-black hover:text-white shadow-lg transition-all delay-100 md:p-3 md:px-1 lg:p-5 rounded-lg text-center border-red-500 font-bold md:text-lg lg:text-2xl'>
+                    <img className='mx-auto w-16 md:w-20 lg:w-32 '  src="https://i.ibb.co/hdmk9bn/cooker.png" alt="" />
+                    <h4 >Electric Cooker</h4>
                     
                 </div>
-
+               
+               
               </div>
            </div>
         </div>
