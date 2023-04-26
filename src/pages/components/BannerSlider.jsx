@@ -18,7 +18,7 @@ import sliderImg3 from '../../assets/slider-img/slider-3.jpg';
 
 const BannerSlider = () => {
     return (
-        <>
+        <div className="w-2/3 mx-auto">
           <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -38,7 +38,7 @@ const BannerSlider = () => {
         <SwiperSlide><img src={sliderImg3} alt="" /></SwiperSlide>
         
       </Swiper>  
-        </>
+        </div>
     );
 };
 

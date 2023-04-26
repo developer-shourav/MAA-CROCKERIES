@@ -1,11 +1,20 @@
 import React from 'react';
-import BannerSlider from '../components/BannerSlider';
+import Banner1 from '../../assets/banner/banner1.jpg';
+import Banner2 from '../../assets/banner/banner2.jpg';
 
 const Home = () => {
     return (
         <div className='container mx-auto'>
-            <h2>This is Home </h2>
-            <BannerSlider> </BannerSlider>
+
+            <div className='flex my-10'>
+                <div className='w-1/2'>
+                    <img src={Banner1} alt="" />
+                </div>
+                <div>
+                    <h1>We are the best </h1>
+                </div>
+            </div>
+           
         </div>
     );
 };
