@@ -3,6 +3,11 @@ import ProfileImg from '../../assets/profile.jpg'
 import ProfileImg2 from '../../assets/profile2.png'
 import Profile from '../../assets/final-profile.png'
 import Logo from "../../assets/web-logo.png";
+import {FaPhoneAlt} from 'react-icons/fa';
+import { BsFacebook} from 'react-icons/bs';
+import { IoLogoWhatsapp} from 'react-icons/io';
+import {MdEmail} from 'react-icons/md';
+import {ImLocation} from 'react-icons/im';
 const Contact = () => {
     return (
         <div className='container mx-auto'>
@@ -30,11 +35,12 @@ const Contact = () => {
 
                  <h3 className='font-bold text-xl my-2'><span className='text-red-500'>Proprietor: </span> Vojon Chakroborti</h3>
 
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, hic.</p>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, hic.</p>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, hic.</p>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, hic.</p>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, hic.</p>
+                 <p><FaPhoneAlt/></p>
+                 <p><FaPhoneAlt/></p>
+                 <p><MdEmail/></p>
+                 <p><IoLogoWhatsapp/></p>
+                 <p> <BsFacebook/>  <a href="https://www.facebook.com/cbvojon" target='_blank'>https://www.facebook.com/cbvojon</a></p>
+                 <p><ImLocation/></p>
                  
                </div>
             </div>
