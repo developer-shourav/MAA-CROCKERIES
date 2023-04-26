@@ -11,18 +11,18 @@ import { ImLocation } from "react-icons/im";
 const Contact = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex mt-20 mx-20 items-center justify-start">
+      <div className="flex flex-col md:flex-row mt-5 md:mt-20 mx-3 md:mx-5 lg:mx-20 items-center justify-start">
         {/* <div className='w-1/2'>
                <img className="mask mask-squircle w-3/4 " src={ProfileImg} />
                </div> */}
 
-        <div className="w-1/2">
-          <img className=" w-3/4 " src={Profile} />
+        <div className="md:w-1/2">
+          <img className=" w-4/4 md:w-3/4 " src={Profile} />
         </div>
 
-        <div className="mb-3 w-1/2">
+        <div className="mb-3 ms-5 md:ms-0 md:w-1/2">
           <div>
-            <span className="flex items-end ">
+            <span className="flex items-end mt-5 ">
               {" "}
               <img
                 className="w-8 md:w-12 me-2 md:me-3"
