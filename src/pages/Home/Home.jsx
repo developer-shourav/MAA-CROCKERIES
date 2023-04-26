@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Banner from '../../assets/banner/banner.png';
 import Banner1 from '../../assets/banner/banner1.jpg';
 import Banner2 from '../../assets/banner/banner2.jpg';
+import CategoryCard from '../components/CategoryCard';
 
 const Home = () => {
     
@@ -46,13 +47,18 @@ const Home = () => {
             </div>
            {/* ------Product Card ------ */}
 
-           <div className=''>
-              <h2 className='text-center font-bold text-4xl pt-5'>What we mainly offer?</h2>
+           <div className='w-100 lg:w-10/12 mx-auto'>
+              <h2 className='text-center font-bold text-2xl md:text-3xl lg:text-4xl pt-5'>What we mainly offer?</h2>
 
-              <div className='grid grid-cols-2 md:grid-cols-4 mx-10 mt-16 mb-10 gap-5'>
-               {/*  {
-                    categories.map
-                } */}
+              <div className='grid grid-cols-2 md:grid-cols-4 mx-10 mt-5 md:mt-16 mb-10 gap-2 md:gap-5'>
+                {
+                    categories?.map( category => <CategoryCard
+                    key={category.id}
+                    category={category}
+                    > 
+
+                    </CategoryCard>)
+                }
                 
                 
                
