@@ -15,7 +15,7 @@ const NavigationBar = () => {
           </span>
         </div>
         
-        <div className="hidden md:flex flex-none">
+        <div className="hidden lg:flex flex-none">
           <ul className="menu font-bold menu-horizontal px-1">
             <li>
               <NavLink   to='/'>Home</NavLink>
@@ -67,7 +67,7 @@ const NavigationBar = () => {
           
         </div>
 
-        <div className=" sm:visible md:hidden dropdown dropdown-end ">
+        <div className=" visible lg:hidden dropdown dropdown-end ">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
               <AiOutlineMenu className="text-red-600 text-xl"> </AiOutlineMenu>
               </label>

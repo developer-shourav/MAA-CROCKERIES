@@ -7,31 +7,31 @@ const Home = () => {
     return (
         <div className='container mx-auto'>
 
-            <div className='flex my-10 items-center justify-between'>
-               <div className='w-1/2 ps-10'>
-                <h1 className='font-bold text-5xl mb-5'> Chose Our Top </h1>
-                <h1 className='font-bold  md:text-4xl lg:text-6xl mb-5'> Crockeries Here </h1>
+            <div className='flex px-5 lg:px-0 flex-col-reverse md:flex-row my-4 md:my-8 lg:my-10 items-center justify-between'>
+               <div className='md:w-1/2 lg:ps-10'>
+                <h1 className='font-bold text-3xl md:text-5xl my-2 md:mb-5'> Chose Our Top </h1>
+                <h1 className='font-bold text-2xl  md:text-4xl lg:text-6xl mb-5'> Crockeries Here </h1>
                 
                 
-                <p className='w-3/4 text-gray-700 mb-5'>We stands for quality, authenticity, trust and satisfaction. We have a massive collection of products and brands that you will love.</p>
+                <p className='md:w-3/4 text-gray-700 mb-5'>We stands for quality, authenticity, trust and satisfaction. We have a massive collection of products and brands that you will love.</p>
                 <button style={{background:'red'}} className='btn border-0 rounded-none px-8 '> Shop Now </button>
 
-                 <div className='mt-10 font-bold flex gap-20'>
+                 <div className=' mt-5 md:mt-10 font-bold flex gap-20'>
 
                    <div>
-                     <h3 className='text-3xl'>1534+</h3>
+                     <h3 className=' text-2xl md:text-3xl'>1534+</h3>
                      <p ><small>Total Products</small></p>
                    </div>
 
                    <div>
-                   <h3 className='text-3xl'>1000+</h3>
+                   <h3 className=' text-2xl md:text-3xl'>1000+</h3>
                      <p><small>Monthly Customers</small></p>
                    </div>
 
                  </div>
                </div>
 
-               <div className='w-1/2'>
+               <div className='md:w-1/2'>
                 <img  src={Banner} alt="" />
                </div>
             </div>
