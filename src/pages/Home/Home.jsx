@@ -10,7 +10,7 @@ const Home = () => {
             <div className='flex my-10 items-center justify-between'>
                <div className='w-1/2 ps-10'>
                 <h1 className='font-bold text-5xl mb-5'> Chose Our Top </h1>
-                <h1 className='font-bold text-6xl mb-5'> Crockeries Here </h1>
+                <h1 className='font-bold  md:text-4xl lg:text-6xl mb-5'> Crockeries Here </h1>
                 
                 
                 <p className='w-3/4 text-gray-700 mb-5'>We stands for quality, authenticity, trust and satisfaction. We have a massive collection of products and brands that you will love.</p>
@@ -19,7 +19,7 @@ const Home = () => {
                  <div className='mt-10 font-bold flex gap-20'>
 
                    <div>
-                     <h3 className='text-3xl'>1534</h3>
+                     <h3 className='text-3xl'>1534+</h3>
                      <p ><small>Total Products</small></p>
                    </div>
 
