@@ -4,7 +4,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 const NavigationBar = () => {
   return (
-      <div className="navbar container shadow-md rounded-md mx-auto bg-base-100">
+      <div className="navbar container shadow-md rounded-md mx-auto bg-base-100 sticky top-0 left-0">
         <div className="flex-1">
           <span className="flex items-center ">
             {" "}
