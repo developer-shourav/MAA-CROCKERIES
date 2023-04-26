@@ -6,7 +6,7 @@ import Banner2 from '../../assets/banner/banner2.jpg';
 const Home = () => {
     return (
         <div className='container mx-auto'>
-
+          {/* ------Top Banner------ */}
             <div className='flex px-5 lg:px-0 flex-col-reverse md:flex-row my-4 md:my-8 lg:my-10 items-center justify-between'>
                <div className='md:w-1/2 lg:ps-10'>
                 <h1 className='font-bold text-3xl md:text-5xl my-2 md:mb-5'> Chose Our Top </h1>
@@ -35,7 +35,20 @@ const Home = () => {
                 <img  src={Banner} alt="" />
                </div>
             </div>
-           
+           {/* ------Product Card ------ */}
+
+           <div className=''>
+              <h2 className='text-center font-bold text-4xl pt-5'>What we mainly offer?</h2>
+
+              <div className='grid grid-cols-4'>
+                <div>
+                    <span></span>
+                    <h4></h4>
+                    
+                </div>
+
+              </div>
+           </div>
         </div>
     );
 };

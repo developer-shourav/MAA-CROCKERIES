@@ -1,0 +1,44 @@
+ [
+      {
+        "id": 1,
+        "product_name": "Glass Products",
+        "image": "https://i.ibb.co/yfbBWm4/clover.png"
+      },
+      {
+        "id": 2,
+        "product_name": "Electronic Crockeries",
+        "image": "https://i.ibb.co/qRQVPp5/blender.png"
+      },
+      {
+        "id": 3,
+        "product_name": "Plastic Table",
+        "image": "https://i.ibb.co/NWSQv7G/side-table.png"
+      },
+      {
+        "id": 4,
+        "product_name": "Ceramic Items",
+        "image": "https://i.ibb.co/gyC1BJ3/restaurant.png"
+      },
+      {
+        "id": 5,
+        "product_name": "Stainless Still Items",
+        "image": "https://i.ibb.co/6HhR7xg/plate.png"
+      },
+      {
+        "id": 6,
+        "product_name": "Plastic Chair",
+        "image": "https://i.ibb.co/nRFD55d/dining.png"
+      },
+      {
+        "id": 7,
+        "product_name": "Customized Mug",
+        "image": "https://i.ibb.co/NYyJxJK/coffee-shop.png"
+      },
+      {
+        "id": 8,
+        "product_name": "Electric Cooker",
+        "image": "https://i.ibb.co/hdmk9bn/cooker.png"
+      }
+    ]
+
+  
