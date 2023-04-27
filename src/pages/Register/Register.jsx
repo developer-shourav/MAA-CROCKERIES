@@ -13,7 +13,7 @@ const Register = () => {
    {" "}
    <AiOutlineUserAdd className="text-red-600 text-5xl md:text-4xl lg:text-6xl inline" /> Please Register
  </h2>
- <div className="flex flex-col md:flex-row justify-between  items-center">
+ <div className="flex flex-col md:flex-row lg:gap-16 justify-between  md:items-start">
    <div className="md:w-full">
      <img className="w-full" src={RegisterImg} alt="" />
    </div>
