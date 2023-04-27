@@ -1,6 +1,4 @@
 import React from "react";
-import ProfileImg from "../../assets/profile.jpg";
-import ProfileImg2 from "../../assets/profile2.png";
 import Profile from "../../assets/final-profile.png";
 import Logo from "../../assets/web-logo.png";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -15,10 +13,6 @@ const Contact = () => {
     <div className="container mx-auto">
       <div>
       <div className="flex flex-col md:flex-row mt-5 md:mt-20 mx-3 md:mx-5 lg:mx-20 items-center justify-start">
-        {/* <div className='w-1/2'>
-               <img className="mask mask-squircle w-3/4 " src={ProfileImg} />
-               </div> */}
-
         <div className="md:w-1/2">
           <img className=" w-4/4 md:w-3/4 " src={Profile} />
         </div>

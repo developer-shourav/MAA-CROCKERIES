@@ -4,7 +4,7 @@ import EmailHi from '../../assets/animation/email.gif'
 const SandMail = () => {
   return (
     <div className="w-11/12 mx-auto">
-
+         <h3>Send Mail</h3>
       <div className="flex justify-between gap-4 items-center">
         <div className="w-10/12">
                 <input className="w-full outline-none border-2 rounded ps-2 py-2 bg-red-50 my-2  border-red-500 " type="text" name="name" placeholder="Your Name"  />
