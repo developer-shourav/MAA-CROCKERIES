@@ -6,7 +6,7 @@ import { BsFacebook } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { ImLocation } from "react-icons/im";
-import StoreMap from "../components/storeMap";
+import StoreMap from "../components/StoreMap";
 import SandMail from "../components/SandMail";
 const Contact = () => {
   return (
@@ -61,8 +61,8 @@ const Contact = () => {
               https://www.facebook.com/cbvojon
             </a>
           </p>
-          <p className="flex items-center gap-2 mb-1 mt-2 text-lg font-bold">
-            <ImLocation className="text-red-500 text-2xl" /> Bagmar Bazar, Nawabgonj,
+          <p className=" gap-2 mb-1 mt-2 text-lg font-bold">
+            <ImLocation className="text-red-500 text-2xl inline" /> Bagmar Bazar, Nawabgonj,
             Dhaka-1320
           </p>
         </div>
@@ -74,7 +74,7 @@ const Contact = () => {
       </div>
 
 
-      <div className="my-36">
+      <div className="md:my-24 lg:my-36">
        {/* -------Email Sending Animation--------- */}
        
        <SandMail> </SandMail>
