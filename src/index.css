@@ -43,3 +43,10 @@
    height: 100%;
    object-fit: cover;
  }
+
+  .card-gb{
+    background-color: rgba(241, 241, 241, 0.575);
+  }
+ .google-btn-shadow{
+  box-shadow: 1px 1px 5px 2px #14141442, -1px -1px 1px 1px rgba(0, 0, 0, 0.123);
+ }
