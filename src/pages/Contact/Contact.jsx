@@ -12,10 +12,8 @@ const Contact = () => {
   return (
     <div className="container mx-auto">
       <div>
-      <div className="flex flex-col md:flex-row mt-5 md:mt-20 mx-3 md:mx-5 lg:mx-20 items-center justify-start">
-        <div className="md:w-1/2">
-          <img className=" w-4/4 md:w-3/4 " src={Profile} />
-        </div>
+      <div className="flex flex-col-reverse md:flex-row mt-5 md:mt-20 mx-3 md:mx-5 lg:mx-20 items-center justify-start">
+       
 
         <div className="mb-3 ms-5 md:ms-0 md:w-1/2">
           <div>
@@ -68,11 +66,15 @@ const Contact = () => {
             Dhaka-1320
           </p>
         </div>
+
+        <div className="md:w-1/2">
+          <img className=" w-4/4 md:w-3/4 " src={Profile} />
+        </div>
       </div>
       </div>
 
 
-      <div>
+      <div className="my-36">
        {/* -------Email Sending Animation--------- */}
        
        <SandMail> </SandMail>

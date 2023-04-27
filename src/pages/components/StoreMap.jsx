@@ -6,13 +6,13 @@ const StoreMap = () => {
       <div className="mt-20">
         <h2 className="text-3xl font-bold text-center">
           {" "}
-          <ImLocation className="text-red-500 text-5xl md:text-4xl lg:text-6xl inline" />{" "}
+          <ImLocation className="text-red-600 text-5xl md:text-4xl lg:text-6xl inline" />{" "}
           Our Store Location
         </h2>
       </div>
       <div>
         <iframe
-          className="w-11/12 mx-auto mt-5 h-80 rounded-lg shadow-lg border-4 border-red-500"
+          className="w-11/12 mx-auto mt-5 h-80 rounded-lg shadow-lg border-4 border-red-600"
           frameBorder="0"
           scrolling="no"
           marginHeight="0"
