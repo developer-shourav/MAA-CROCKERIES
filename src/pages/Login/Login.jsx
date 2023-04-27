@@ -4,7 +4,7 @@ import {FaFacebookF} from 'react-icons/fa';
 import LoginImg from "../../assets/svg/login.svg";
 import { RiShieldKeyholeFill } from "react-icons/ri";
 import { Link } from 'react-router-dom';
-import GoogleImg from '../../assets/icons/goole.png';
+import GoogleImg from '../../assets/icons/google.png';
 const Login = () => {
     return (
         <div className='container mx-auto'>
