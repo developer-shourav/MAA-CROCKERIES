@@ -1,5 +1,6 @@
 import React from 'react';
-import { BsKeyFill } from "react-icons/bs";
+import { BsKeyFill, BsGithub } from "react-icons/bs";
+import {FaFacebookF} from 'react-icons/fa';
 import LoginImg from "../../assets/svg/login.svg";
 import { RiShieldKeyholeFill } from "react-icons/ri";
 import { Link } from 'react-router-dom';
@@ -42,7 +43,13 @@ const Login = () => {
         <div className='flex justify-center items-center mt-2'> 
           <hr className='inline-block w-full border-1 border-red-400' /> <span className='mx-3 font-bold'> Or </span> <hr className='inline-block border-1 w-full border-red-400' />
         </div>
-        <button className='btn normal-case bg-white   text-black rounded hover:bg-slate-100 google-btn-shadow border-0'> <img className='w-6 me-2' src={GoogleImg} alt="" /> Login with Google</button>
+
+        <button className='btn normal-case bg-white mb-1   text-black rounded hover:bg-slate-200 google-btn-shadow border-0'> <img className='w-6 me-2' src={GoogleImg} alt="" /> Login with Google</button>
+
+        <button className='btn normal-case text-white mb-1   bg-black rounded  shadow-sm border-0'> <BsGithub className=' text-2xl me-2'  /> Login with GitHub</button>
+
+        <button className='btn normal-case bg-blue-600 mb-1  text-white rounded hover:bg-blue-500  shadow-sm border-0'> <FaFacebookF className=' text-2xl me-1'  /> Login with Facebook</button>
+
       </div>
     </div>
         </div>
