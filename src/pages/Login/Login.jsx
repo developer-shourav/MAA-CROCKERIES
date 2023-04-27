@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import GoogleImg from '../../assets/icons/google.png';
 const Login = () => {
     return (
-        <div className='container mx-auto'>
+        <div className='container  mx-auto'>
              <div className="w-11/12 mx-auto">
       <h2 className="text-3xl font-bold text-center mt-10">
         {" "}
@@ -25,13 +25,13 @@ const Login = () => {
           <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <input type="text" placeholder="email" className="input input-bordered" />
+          <input type="email" placeholder="email" className="input input-bordered" />
         </div>
         <div className="form-control">
           <label className="label">
             <span className="label-text">Password</span>
           </label>
-          <input type="text" placeholder="password" className="input input-bordered" />
+          <input type="password" placeholder="password" className="input input-bordered" />
           <label className="label">
             <small>New to Ma Crockeries? <Link to="/register" className='text-violet-600 font-bold underline'> Register</Link></small>
           </label>
