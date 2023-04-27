@@ -9,6 +9,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { ImLocation } from "react-icons/im";
 import StoreMap from "../components/storeMap";
+import SandMail from "../components/SandMail";
 const Contact = () => {
   return (
     <div className="container mx-auto">
@@ -74,6 +75,13 @@ const Contact = () => {
           </p>
         </div>
       </div>
+      </div>
+
+
+      <div>
+       {/* -------Email Sending Animation--------- */}
+       
+       <SandMail> </SandMail>
       </div>
 
       <div>
