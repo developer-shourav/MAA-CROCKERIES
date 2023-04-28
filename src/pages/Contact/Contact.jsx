@@ -11,6 +11,7 @@ import SandMail from "../components/SandMail";
 const Contact = () => {
   return (
     <div className="container mx-auto">
+      <h2 className="text-4xl font-bold text-center my-10"> Contact Us</h2>
       <div>
       <div className="flex flex-col-reverse md:flex-row mt-5 md:mt-20 mx-3 md:mx-5 lg:mx-20 items-center justify-start">
        

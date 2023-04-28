@@ -3,6 +3,8 @@ import Banner from '../../assets/banner/banner.png';
 import Banner1 from '../../assets/banner/banner1.jpg';
 import Banner2 from '../../assets/banner/banner2.jpg';
 import CategoryCard from '../components/CategoryCard';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     
@@ -64,6 +66,14 @@ const Home = () => {
                
                
               </div>
+           </div>
+
+           <div className='mt-40'>
+            <About> </About>
+           </div>
+           
+           <div className='mt-40'>
+            <Contact> </Contact>
            </div>
         </div>
     );
