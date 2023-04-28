@@ -37,7 +37,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className=" md:py-6 lg:py-10 about-bg my-5">
+      <div className="hidden md:block md:py-6 lg:py-10 about-bg my-5">
 
         <div className="container mx-auto flex items-center justify-evenly text-center font-bold ">
           <div>
@@ -56,7 +56,7 @@ const About = () => {
           </div>
 
           <div>
-            <h3 className="md:text-3xl lg:text-4xl">90%</h3>
+            <h3 className=" md:text-3xl lg:text-4xl">90%</h3>
             <p>Return Customers</p>
           </div>
         </div>
