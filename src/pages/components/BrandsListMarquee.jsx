@@ -13,7 +13,7 @@ import BrandLogo11 from '../../assets/brand-img/11.png';
 const BrandsListMarquee = () => {
     return (
         <div className='container mx-auto mt-10 hidden md:block '>
-            <h3 className='text-center font-bold text-gray-500 mb-10 text-3xl'> Brands Available</h3>
+            <h3 className='text-center font-bold text-gray-600 mb-10 text-3xl'> Brands Available</h3>
             <Marquee pauseOnHover={true} speed={60} gradient={true}> 
                 <div className='brand-img'>
                     <img src={BrandLogo1} alt="" />
