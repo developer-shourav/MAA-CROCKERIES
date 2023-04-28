@@ -50,3 +50,14 @@
  .google-btn-shadow{
   box-shadow: 1px 1px 5px 2px #14141442, -1px -1px 1px 1px rgba(0, 0, 0, 0.123);
  }
+
+ .about-bg{
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  transition: all .3s ease;
+ }
+ .about-bg:hover{
+  background-color: black;
+  color: red;
+ }
