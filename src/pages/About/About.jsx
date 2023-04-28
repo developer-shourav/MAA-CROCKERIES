@@ -1,5 +1,6 @@
 import React from "react";
 import AboutImg from "../../assets/about.png";
+import BrandsListMarquee from "../components/BrandsListMarquee";
 const About = () => {
   return (
     <div className="">
@@ -61,6 +62,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <BrandsListMarquee> </BrandsListMarquee>
     </div>
   );
 };
